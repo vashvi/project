@@ -1,0 +1,178 @@
+.head{
+  
+    /* margin-left: 30px; */
+    font-weight: 600vh;
+  }
+  
+  .user-section{
+    background-color: transparent;
+    /* margin-right: 20px; */
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 13%;
+  }
+  
+  .user-section h1{
+    color: #2a2a2a;
+    background-color: #ffffffb2;
+    border-radius: 10px;
+    padding: 10px 25px;
+    
+    /* width: 900px; */
+    font-size: 18px;
+  }
+  
+  .advise{
+    background-color: #ffffffad;
+    border-radius: 20px;
+    color: #2a2a2a;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .app {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  
+  header {
+    position: relative;
+    background-image: url("../Images/WhatsApp\ Image\ 2024-12-07\ at\ 22.00.17_d4df5d5e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+  
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(52, 30, 119, 0.5); /* Purple mask */
+    pointer-events: none;
+  }
+  
+  .header-content {
+    position: relative;
+    height: 250px;
+    padding: 30px;
+    
+  }
+
+
+  
+.header {
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    padding-top: 0;
+  }
+  
+  
+  header{
+    height:50vh;
+  }
+  .header-content{
+    /* background-color: red; */
+    height: 250px;
+    padding: 30px;
+  
+  }
+  .title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-content h1{
+    font-size: 250%;
+    width: 50%;
+    height: 50%;
+    }
+  
+  .search-bar {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+  }
+  .search-bar button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #4a00e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-buttons {
+    margin: 0 25%;
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .header-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-bar{
+	width: 70%;
+	background: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px;
+}
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 10px;
+	font-size: 20px;
+	/* color: #cac7ff; */
+    color: #201658;
+	backdrop-filter: blur(4px) saturate(180%);
+}
+::placeholder{
+	color: #1b1b1d;
+}
+.search-bar button i{
+	width: 25px;
+}
+.search-bar button{
+	border: 0;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: transparent;
+    background-image: url("../Images/WhatsApp\ Image\ 2024-12-07\ at\ 22.06.46_ab09f4fb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	cursor: pointer;
+}
+

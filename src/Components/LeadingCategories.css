@@ -1,0 +1,28 @@
+.categories {
+    /* background: #2a2a2a; */
+    color: white;
+    padding: 30px 20px;
+  }
+  
+  .categories h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .categories-slider {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    background: #fafafcc0;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
